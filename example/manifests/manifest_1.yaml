@@ -1,0 +1,16 @@
+name: test1
+namespace: json-tests
+repo: production
+data:
+- name: single-json-key
+  source:
+    json: object1.json
+    jsonpath: $.secret
+- name: another-json-key
+  source:
+    json: object1.json
+    jsonpath: $.nesting.key1
+- name: an-int
+  source:
+    json: object1.json
+    jsonpath: $.nesting.int

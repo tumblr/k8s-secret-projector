@@ -1,0 +1,8 @@
+/bin/
+/vendor/
+/.gopath~/
+/.gopath/
+/gopath/
+/Dockerfile
+*.so
+/plugins/**/*.so

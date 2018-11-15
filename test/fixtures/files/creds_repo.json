@@ -1,0 +1,17 @@
+{
+  "VALUE" : "A",
+  "VALUE_INT" : 23,
+  "VALUE_INT_STR" : "23",
+  "VALUE_DOUBLE" : 23.45,
+  "VALUE_DOUBLE_STR" : "23.45",
+  "VALUE_BOOL" : false,
+  "VALUE_BOOL_STR" : "false",
+  "TUMBLR_MYSQL_USER" : "muser",
+  "TUMBLR_MYSQL_PASSWORD" : "pass",
+  "S3_KEY_ID" : "secret",
+  "S3_SECRET_KEY" : "squirrel",
+  "tumblr": "ZENDESK_SUBDOMAIN",
+  "ZENDESK_SUBDOMAIN" : "tumblr",
+  "MULTIPLE_CREDS_ARRAY" : ["ONE", "TWO", "THREE"]
+}
+

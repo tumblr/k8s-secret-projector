@@ -1,0 +1,16 @@
+name: test-json-subset
+namespace: json-tests
+repo: production
+encryption:
+  module: plugin
+  plugin-path: plugin-missing.so
+  include_decryption_keys: true
+data:
+- name: secrets.json.enc
+  encrypt: true
+  source:
+    json: object1.json
+    jsonpaths:
+      key1: $.nesting.key1
+      float: $.nesting.float
+      list: $.nesting.list

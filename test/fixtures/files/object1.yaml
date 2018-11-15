@@ -1,0 +1,20 @@
+secret: "paSsw0rd!"
+nesting:
+  key1: "foo"
+  integer: 420
+  float: -69.6969
+  bool: true
+  list:
+  - abc
+  - def
+  - ghi
+  list-int: [1,2,3]
+  list-float:
+    - 69.0
+    - 420.69
+  list-string:
+    - foo
+    - bar
+  map:
+    foo: bar
+    baz: 123

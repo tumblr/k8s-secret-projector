@@ -1,0 +1,7 @@
+secret: "paSsw0rd!"
+nesting:
+  key1: "foo"
+  list:
+  - abc
+  - def
+  - ghi

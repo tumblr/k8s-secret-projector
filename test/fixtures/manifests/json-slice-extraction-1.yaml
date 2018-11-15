@@ -1,0 +1,20 @@
+name: test-array-extraction
+namespace: json-tests
+repo: production
+data:
+- name: array
+  source:
+    json: object1.json
+    jsonpath: $.listroot
+- name: array-field-extraction-0
+  source:
+    json: object1.json
+    jsonpath: $.listroot[0]
+- name: nesting-array-0
+  source:
+    json: object1.json
+    jsonpath: $.nesting.list[0]
+- name: nesting-array
+  source:
+    json: object1.json
+    jsonpath: $.nesting.list

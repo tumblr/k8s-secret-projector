@@ -1,0 +1,19 @@
+{
+  "secret": "paSsw0rd!",
+  "listroot": ["sdfjsklfsjklsjfsdlkfjsdl"],
+  "nesting": {
+    "key1": "foo",
+    "list": ["abc","def","ghi"],
+    "list2": ["foobar"],
+    "list-int": [1,2,3],
+    "list-float": [69.0, 420.69],
+    "list-string": ["foo", "bar"],
+    "float": 1.23,
+    "int": 12345,
+    "bool": true,
+    "map": {
+      "foo": "bar",
+      "baz": 666
+    }
+  }
+}

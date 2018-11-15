@@ -1,0 +1,7 @@
+name: missingsource
+namespace: unittest
+repo: production
+data:
+- name: missing-source
+  source:
+    raw: test/doesnt-exist.txt

@@ -1,0 +1,11 @@
+name: test-json-subset
+namespace: json-tests
+repo: production
+data:
+- name: secrets.yaml
+  source:
+    format: yaml
+    json: object1.json
+    jsonpaths:
+      key1: $.nesting.key1
+      float: $.nesting.float

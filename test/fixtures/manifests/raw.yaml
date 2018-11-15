@@ -1,0 +1,7 @@
+name: test2
+namespace: raw-test1
+repo: production
+data:
+- name: raw-file
+  source:
+    raw: raw1.txt
