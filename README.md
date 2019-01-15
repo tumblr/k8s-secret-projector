@@ -6,7 +6,7 @@ Create managed Kubernetes Secrets from mapping files and your credentials repos
 
 # What is this?
 
-At Tumblr, we wanted a way to allow applications to declare their dependencies on secrets (passwords, certificates, etc) without needing to create configurations that are aware the specific secret files. A system like this will allow automation to ensure applications always have the appropriate secrets at runtime, while enabling automated systems (cert refreshers, DB password rotations, etc) to automatically manage and update these credentials, and not require the application to redeploy/restart. Additionally, we wanted a system to limit to scope and access of any application to the minimum set of credentials necessary to run, to minimize a compromize blast radius.
+At Tumblr, we wanted a way to allow applications to declare their dependencies on secrets (passwords, certificates, etc) without needing to create configurations that are aware of specific secret files. A system like this will allow automation to ensure applications always have the appropriate secrets at runtime, while enabling automated systems (cert refreshers, DB password rotations, etc) to automatically manage and update these credentials, and not require the application to redeploy/restart. Additionally, we wanted a system to limit the scope and access of any application to the minimum set of credentials necessary to run, minimizing a compromise blast radius.
 
 To solve this problem, we created a system to enable developers to declare their application's secret dependencies, without needing access to the secret files in our secure credential stores. The `k8s-secret-projector` is a tool that:
 
