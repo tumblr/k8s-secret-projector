@@ -1,4 +1,4 @@
-ARG GO_VERSION=1.11.2
+ARG GO_VERSION=1.11.5
 FROM golang:${GO_VERSION}-alpine as builder
 
 # Note: make sure to sync any dependencies added here to the "make test" step in the Jenkinsfile.
